@@ -1,26 +1,35 @@
-.home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; 
-}
-
-.hero {
+.home-container {
+  padding: 20px;
   text-align: center;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
-  border-radius: 8px;
 }
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+ 
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
-
-.hero p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+ 
+.home-logo img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+ 
+.home-text {
+  max-width: 600px;
+  text-align: left;
+}
+ 
+.home-text h1, .home-text h4 {
+  color: #394865;
+}
+ 
+.home-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 40px;
 }
 
 .cta {

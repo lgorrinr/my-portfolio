@@ -1,20 +1,21 @@
 import React from 'react';
+import './Projects.css';
 
 function Projects() {
   return (
-    <div>
+    <div className="projects">
       <h2>Projects</h2>
-      <div>
-        <img src="project1-image-url" alt="Project 1" />
-        <p>Project 1 description</p>
+      <div className="project">
+        <img src="path/to/project1.jpg" alt="Project 1" />
+        <p>Project 1 Description</p>
       </div>
-      <div>
-        <img src="project2-image-url" alt="Project 2" />
-        <p>Project 2 description</p>
+      <div className="project">
+        <img src="path/to/project2.jpg" alt="Project 2" />
+        <p>Project 2 Description</p>
       </div>
-      <div>
-        <img src="project3-image-url" alt="Project 3" />
-        <p>Project 3 description</p>
+      <div className="project">
+        <img src="path/to/project3.jpg" alt="Project 3" />
+        <p>Project 3 Description</p>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contact.css';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -16,12 +17,11 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission
     console.log(formData);
   };
 
   return (
-    <div>
+    <div className="contact">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" name="firstName" placeholder="First Name" onChange={handleChange} />

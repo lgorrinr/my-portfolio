@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
 import robotChefLogo from '../image/Robot-Chef.png';
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className="home-container">
       <div className="home-content">
@@ -21,7 +23,7 @@ function Home() {
           </div>
         </div>
       </div>
-    <div className="home">
+    <div className="home"></div>
       <div className="hero">
         <h1>Lissette Gorrin</h1>
         <p>Expert Digital Marketer specializing in Social Media and Video Production.</p>
